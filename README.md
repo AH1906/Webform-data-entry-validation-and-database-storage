@@ -79,3 +79,5 @@ This project's `usersTable` is reused (with the same schema) by a related course
 ## About
 
 This project was built as coursework for the Web Programming Using PHP module of the BSc Computer Science (Part-Time) degree at Birkbeck, University of London.
+
+**Live demo:** https://titan.dcs.bbk.ac.uk/~abutt20/p1/cwk2/task3/index.php
