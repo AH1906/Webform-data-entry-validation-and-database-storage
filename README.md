@@ -1,6 +1,8 @@
 # Webform-data-entry-validation-and-database-storage
 
-<img width="1274" height="672" alt="image" src="https://github.com/user-attachments/assets/37f07e30-fde6-4cca-b005-ea29ad9760a8" />
+<img width="1280" height="674" alt="image" src="https://github.com/user-attachments/assets/86da6f68-814c-4237-97e5-fb7546fd7d0d" />
+<img width="1277" height="672" alt="image" src="https://github.com/user-attachments/assets/1839df22-51d1-441d-b46c-3e0d573f754f" />
+
 
 # Webform Data Entry, Validation and Database Storage
 
