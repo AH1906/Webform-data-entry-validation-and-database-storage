@@ -1,8 +1,8 @@
 <?php
-$host = 'mysqlsrv.dcs.bbk.ac.uk';
-$db = 'abutt20db';
-$user = 'abutt20';
-$pass = 'bbkmysql';
+$host = 'your_host_here';
+$db = 'your_db_name';
+$user = 'your_username';
+$pass = 'your_password';
 $charset = 'utf8mb4';
 		
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
