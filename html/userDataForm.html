@@ -1,0 +1,52 @@
+<div id="userForm">
+<form method="post" novalidate> <!-- post data to calling PHP script as no action attribute specified-->
+	<fieldset> <!--Html form that contains all the fields required for the form-->
+		<div>
+			<label for="firstname">First Name</label>
+			<input title="Alphanumeric" value ="[+firstname+]" type="text" name="firstname" 
+			       id="firstname" maxlength="45" size ="45">
+			<span style="color:red"> [+firstnameError+]</span>
+			</div>
+		<div>
+			<label for="middlename">Middle Name(s)</label>
+			<input title="Alphanumeric plus spaces" value ="[+middlename+]" type="text" name="middlename" 
+			       id="middlename" maxlength="45" size ="45">
+			<span style="color:red"> [+middlenameError+]</span>
+			</div>
+		<div>
+			<label for="surname">Surname</label>
+			<input title="Alphanumeric" value ="[+surname+]" type="text" name="surname" 
+			       id="surname" maxlength="45" size ="45">
+			<span style="color:red"> [+surnameError+]</span>
+			</div>
+		<div>
+			<label for="email">Email</label>
+			<input title="RFC 822 standard and UNIQUE" value ="[+email+]" type="email" name="email" 
+			       id="email" maxlength="45" size ="45">
+			<span style="color:red"> [+emailError+]</span>
+			</div>
+		<div>
+			<label for="username">Username</label>
+			<input title="Alphanumeric >=10 characters and UNIQUE" value ="[+username+]" type="text" name="username" 
+			       id="username" maxlength="30" size ="30">
+			<span style="color:red"> [+usernameError+]</span>
+			</div>
+		<div>
+			<label for="password">Password</label>
+			<input title=">= 10 and <=30 characters, MUST include, uppercase, lowercase, a number, plus one of & - $ % & * ! #"
+			       value ="[+password+]" type="text" name="password" id="password" maxlength="30" size ="30">	
+			<span style="color:red"> [+passwordError+]</span>
+			</div>
+		<div >
+			<label for="userType">User Type</label>
+			<select title="Select either Academic, Admin or Student" name="userType" id="userType">
+				<option  value="academic">Academic</option>
+				<option  value="admin">Admin</option>
+				<option  value="student">Student</option>
+			</select>
+			</div>
+		<input type="submit" name="userDataSubmitted" value="Save">
+		<input type="submit" name="userDataClear" value="Clear">
+	</fieldset>
+</form>
+</div>
